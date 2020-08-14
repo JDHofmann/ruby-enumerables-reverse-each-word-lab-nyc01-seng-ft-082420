@@ -1,7 +1,7 @@
 def reverse_each_word(string)
   
   # tear string into individual words
-  string_array = string.split("")
+  string_array = string.split(/ /)
   
   reversed_string_array = []
   
